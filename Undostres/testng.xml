@@ -1,0 +1,10 @@
+<suite name = "Suite">
+    <test name = "Test">
+        <parameter name = "browsername" value="GoogleChrome"> </parameter>
+        <!--<parameter name = "browsername" value="InternetExplorer"> </parameter> -->
+        <classes>
+            <class name = "tests.PaymentTest">
+            </class>
+        </classes>
+    </test>
+</suite>
